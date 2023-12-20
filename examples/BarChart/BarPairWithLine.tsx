@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, Text} from 'react-native';
 import {BarChart} from '../../src/BarChart';
-import { ruleTypes } from '../../src/utils/constants';
+import {ruleTypes} from '../../src/utils/constants';
 
 const BarPairWithLine = () => {
   const data = [
@@ -71,8 +71,8 @@ const BarPairWithLine = () => {
           barBorderRadius={4}
           showGradient
           yAxisThickness={0}
-          xAxisType={ruleTypes.DASHED}
-          xAxisColor={'lightgray'}
+          xAxisType={ruleTypes.SOLID}
+          xAxisColor={'lighgray'}
           yAxisTextStyle={{color: 'lightgray'}}
           stepValue={1000}
           maxValue={6000}

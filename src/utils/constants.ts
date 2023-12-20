@@ -59,9 +59,9 @@ export const AxesAndRulesDefaults = {
   backgroundColor: 'transparent',
 
   hideRules: false,
-  rulesType: ruleTypes.DASHED,
+  rulesType: ruleTypes.SOLID,
   rulesThickness: 1,
-  rulesColor: 'lightgray',
+  rulesColor: '#ECECEC',
   rulesConfigArray: [],
 
   rotateLabel: false,
