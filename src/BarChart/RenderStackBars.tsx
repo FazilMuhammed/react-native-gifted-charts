@@ -189,7 +189,7 @@ const RenderStackBars = (props: Props) => {
             bottom: rotateLabel
               ? -40
               : -6 - xAxisTextNumberOfLines * 18 + lowestBarPosition,
-            marginLeft: -2,
+            marginLeft: -3,
           },
           rotateLabel
             ? props.horizontal
