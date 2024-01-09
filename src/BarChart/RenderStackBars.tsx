@@ -202,7 +202,9 @@ const RenderStackBars = (props: Props) => {
         {item.labelComponent ? (
           item.labelComponent()
         ) : (
-          <Text style={[labelTextStyle]} numberOfLines={xAxisTextNumberOfLines}>
+          <Text
+            style={[labelTextStyle, {margin: -10, color: '#7D92A1'}]}
+            numberOfLines={xAxisTextNumberOfLines}>
             {label || ''}
           </Text>
         )}
